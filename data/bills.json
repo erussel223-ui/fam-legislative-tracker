@@ -1,1 +1,120 @@
+{
+  "lastUpdated": "2026-09-19",
+  "organization": "Freedmen Agenda League of Michigan",
+  "session": "2025-2026",
+  "state": "Michigan",
 
+  "bills": [
+    {
+      "id": "hb-6111",
+      "billNumber": "HB 6111",
+      "chamber": "House",
+      "category": "fam-priority",
+      "displayOrder": 1,
+
+      "title": "American Freedmen Reparations Commission",
+      "officialTitle": "Civil rights: other; American Freedmen reparations commission; establish.",
+
+      "status": "introduced",
+      "statusLabel": "Introduced",
+      "stage": "house-committee",
+
+      "introducedDate": "2026-06-18",
+      "committee": "Government Operations",
+
+      "primarySponsorId": "house-11",
+      "primarySponsor": "Donavan McKinney",
+
+      "summary": "Creates the American Freedmen Reparations Commission to study and develop recommendations concerning reparations for American Freedmen in Michigan.",
+
+      "officialUrl": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6111",
+
+      "famPriority": true,
+      "active": true
+    },
+
+    {
+      "id": "hb-6112",
+      "billNumber": "HB 6112",
+      "chamber": "House",
+      "category": "fam-priority",
+      "displayOrder": 2,
+
+      "title": "American Freedmen Affairs Act",
+      "officialTitle": "State agencies (proposed): other; office of American Freedmen affairs; establish.",
+
+      "status": "introduced",
+      "statusLabel": "Introduced",
+      "stage": "house-committee",
+
+      "introducedDate": "2026-06-18",
+      "committee": "Government Operations",
+
+      "primarySponsorId": "house-53",
+      "primarySponsor": "Brenda Carter",
+
+      "summary": "Creates the Office of American Freedmen Affairs to address matters affecting descendants of individuals emancipated from slavery in the United States and to provide policy, engagement, and reporting functions.",
+
+      "officialUrl": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6112",
+
+      "famPriority": true,
+      "active": true
+    },
+
+    {
+      "id": "hb-6113",
+      "billNumber": "HB 6113",
+      "chamber": "House",
+      "category": "fam-priority",
+      "displayOrder": 3,
+
+      "title": "American Freedmen Data Disaggregation",
+      "officialTitle": "State agencies (existing): generally; certain demographic data of individuals; require state agencies and local units of government to collect.",
+
+      "status": "introduced",
+      "statusLabel": "Introduced",
+      "stage": "house-committee",
+
+      "introducedDate": "2026-06-18",
+      "committee": "Government Operations",
+
+      "primarySponsorId": "house-18",
+      "primarySponsor": "Jason Hoskins",
+
+      "summary": "Requires certain state agencies and local units of government that collect demographic information to provide more detailed demographic categories, including identification relating to descendants of individuals enslaved in the United States.",
+
+      "officialUrl": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6113",
+
+      "famPriority": true,
+      "active": true
+    },
+
+    {
+      "id": "slavery-disclosure-draft",
+      "billNumber": null,
+      "chamber": null,
+      "category": "other-legislation",
+      "displayOrder": 4,
+
+      "title": "Slavery-Era Insurance Disclosure",
+      "officialTitle": null,
+
+      "status": "draft",
+      "statusLabel": "Draft / Pre-Introduction",
+      "stage": "drafting",
+
+      "introducedDate": null,
+      "committee": null,
+
+      "primarySponsorId": null,
+      "primarySponsor": null,
+
+      "summary": "Draft legislation concerning disclosure of historical insurer and related-party participation in slaveholding or the slave trade during the enslavement era.",
+
+      "officialUrl": null,
+
+      "famPriority": false,
+      "active": true
+    }
+  ]
+}
