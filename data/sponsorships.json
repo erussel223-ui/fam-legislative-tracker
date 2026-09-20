@@ -1,1 +1,319 @@
+{
+  "lastUpdated": "2026-09-19",
+  "session": "2025-2026",
+  "state": "Michigan",
 
+  "priorityBillIds": [
+    "hb-6111",
+    "hb-6112",
+    "hb-6113"
+  ],
+
+  "supportRule": {
+    "id": "all-three-priority-bills",
+    "description": "A legislator who is a primary sponsor or cosponsor of all three FAM priority bills is automatically classified as Support.",
+    "requiredBills": [
+      "hb-6111",
+      "hb-6112",
+      "hb-6113"
+    ],
+    "qualifyingRoles": [
+      "primary",
+      "cosponsor"
+    ],
+    "resultingFamStatus": "support"
+  },
+
+  "sponsorships": [
+    {
+      "legislatorId": "house-1",
+      "name": "Tyrone Carter",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-3",
+      "name": "Alabas Farhat",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-5",
+      "name": "Regina Weiss",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-6",
+      "name": "Natalie Price",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-7",
+      "name": "Tonya Myers Phillips",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-8",
+      "name": "Helena Scott",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-10",
+      "name": "Veronica Paiz",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-11",
+      "name": "Donavan McKinney",
+      "bills": {
+        "hb-6111": "primary",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-12",
+      "name": "Kimberly Edwards",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-15",
+      "name": "Erin Byrnes",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-16",
+      "name": "Stephanie Young",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-17",
+      "name": "Laurie Pohutsky",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-18",
+      "name": "Jason Hoskins",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "primary"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-19",
+      "name": "Samantha Steckloff",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-26",
+      "name": "Dylan Wegela",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-32",
+      "name": "Jimmie Wilson",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-33",
+      "name": "Morgan Foreman",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-38",
+      "name": "Joey Andrews",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-40",
+      "name": "Matt Longjohn",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-47",
+      "name": "Carrie Rheingans",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-53",
+      "name": "Brenda Carter",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "primary",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-70",
+      "name": "Cynthia Neeley",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-75",
+      "name": "Penelope Tsernoglou",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-77",
+      "name": "Emily Dievendorf",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-80",
+      "name": "Phil Skaggs",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-82",
+      "name": "Kristian Grant",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": null,
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": false
+    },
+    {
+      "legislatorId": "house-94",
+      "name": "Amos O'Neal",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-103",
+      "name": "Betsy Coffia",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": "cosponsor",
+        "hb-6113": "cosponsor"
+      },
+      "supportRuleMatched": true
+    },
+    {
+      "legislatorId": "house-104",
+      "name": "John Roth",
+      "bills": {
+        "hb-6111": "cosponsor",
+        "hb-6112": null,
+        "hb-6113": null
+      },
+      "supportRuleMatched": false
+    }
+  ]
+}
