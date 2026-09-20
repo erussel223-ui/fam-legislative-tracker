@@ -2,318 +2,1195 @@
   "lastUpdated": "2026-09-19",
   "session": "2025-2026",
   "state": "Michigan",
-
-  "priorityBillIds": [
-    "hb-6111",
-    "hb-6112",
-    "hb-6113"
-  ],
-
-  "supportRule": {
-    "id": "all-three-priority-bills",
-    "description": "A legislator who is a primary sponsor or cosponsor of all three FAM priority bills is automatically classified as Support.",
-    "requiredBills": [
-      "hb-6111",
-      "hb-6112",
-      "hb-6113"
-    ],
-    "qualifyingRoles": [
-      "primary",
-      "cosponsor"
-    ],
-    "resultingFamStatus": "support"
+  "counts": {
+    "house": 110,
+    "senate": 38,
+    "total": 148
   },
-
-  "sponsorships": [
+  "legislators": [
     {
-      "legislatorId": "house-1",
+      "id": "house-1",
+      "chamber": "House",
+      "district": 1,
       "name": "Tyrone Carter",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-3",
+      "id": "house-2",
+      "chamber": "House",
+      "district": 2,
+      "name": "Tullio Liberati Jr.",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-3",
+      "chamber": "House",
+      "district": 3,
       "name": "Alabas Farhat",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-5",
+      "id": "house-4",
+      "chamber": "House",
+      "district": 4,
+      "name": "Karen Whitsett",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-5",
+      "chamber": "House",
+      "district": 5,
       "name": "Regina Weiss",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-6",
+      "id": "house-6",
+      "chamber": "House",
+      "district": 6,
       "name": "Natalie Price",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-7",
-      "name": "Tonya Myers Phillips",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "id": "house-7",
+      "chamber": "House",
+      "district": 7,
+      "name": "Tonya Myers-Phillips",
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-8",
+      "id": "house-8",
+      "chamber": "House",
+      "district": 8,
       "name": "Helena Scott",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-10",
+      "id": "house-9",
+      "chamber": "House",
+      "district": 9,
+      "name": "Joe Tate",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-10",
+      "chamber": "House",
+      "district": 10,
       "name": "Veronica Paiz",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-11",
+      "id": "house-11",
+      "chamber": "House",
+      "district": 11,
       "name": "Donavan McKinney",
-      "bills": {
-        "hb-6111": "primary",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-12",
+      "id": "house-12",
+      "chamber": "House",
+      "district": 12,
       "name": "Kimberly Edwards",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-15",
+      "id": "house-13",
+      "chamber": "House",
+      "district": 13,
+      "name": "Mai Xiong",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-14",
+      "chamber": "House",
+      "district": 14,
+      "name": "Mike McFall",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-15",
+      "chamber": "House",
+      "district": 15,
       "name": "Erin Byrnes",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-16",
-      "name": "Stephanie Young",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "id": "house-16",
+      "chamber": "House",
+      "district": 16,
+      "name": "Stephanie A. Young",
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-17",
+      "id": "house-17",
+      "chamber": "House",
+      "district": 17,
       "name": "Laurie Pohutsky",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-18",
+      "id": "house-18",
+      "chamber": "House",
+      "district": 18,
       "name": "Jason Hoskins",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "primary"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-19",
+      "id": "house-19",
+      "chamber": "House",
+      "district": 19,
       "name": "Samantha Steckloff",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-26",
+      "id": "house-20",
+      "chamber": "House",
+      "district": 20,
+      "name": "Noah Arbit",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-21",
+      "chamber": "House",
+      "district": 21,
+      "name": "Kelly Breen",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-22",
+      "chamber": "House",
+      "district": 22,
+      "name": "Matt Koleszar",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-23",
+      "chamber": "House",
+      "district": 23,
+      "name": "Jason Morgan",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-24",
+      "chamber": "House",
+      "district": 24,
+      "name": "Ranjeev Puri",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-25",
+      "chamber": "House",
+      "district": 25,
+      "name": "Peter Herzberg",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-26",
+      "chamber": "House",
+      "district": 26,
       "name": "Dylan Wegela",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-32",
-      "name": "Jimmie Wilson",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "id": "house-27",
+      "chamber": "House",
+      "district": 27,
+      "name": "Rylee Linting",
+      "party": "R",
+      "active": true
     },
     {
-      "legislatorId": "house-33",
+      "id": "house-28",
+      "chamber": "House",
+      "district": 28,
+      "name": "Jamie Thompson",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-29",
+      "chamber": "House",
+      "district": 29,
+      "name": "James DeSana",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-30",
+      "chamber": "House",
+      "district": 30,
+      "name": "William Bruck",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-31",
+      "chamber": "House",
+      "district": 31,
+      "name": "Reggie Miller",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-32",
+      "chamber": "House",
+      "district": 32,
+      "name": "Jimmie Wilson Jr.",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-33",
+      "chamber": "House",
+      "district": 33,
       "name": "Morgan Foreman",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-38",
+      "id": "house-34",
+      "chamber": "House",
+      "district": 34,
+      "name": "Nancy Jenkins-Arno",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-35",
+      "chamber": "House",
+      "district": 35,
+      "name": "Jennifer Wortz",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-36",
+      "chamber": "House",
+      "district": 36,
+      "name": "Steve Carra",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-37",
+      "chamber": "House",
+      "district": 37,
+      "name": "Brad Paquette",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-38",
+      "chamber": "House",
+      "district": 38,
       "name": "Joey Andrews",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-40",
+      "id": "house-39",
+      "chamber": "House",
+      "district": 39,
+      "name": "Pauline Wendzel",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-40",
+      "chamber": "House",
+      "district": 40,
       "name": "Matt Longjohn",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-47",
+      "id": "house-41",
+      "chamber": "House",
+      "district": 41,
+      "name": "Julie Rogers",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-42",
+      "chamber": "House",
+      "district": 42,
+      "name": "Matt Hall",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-43",
+      "chamber": "House",
+      "district": 43,
+      "name": "Rachelle Smit",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-44",
+      "chamber": "House",
+      "district": 44,
+      "name": "Steve Frisbie",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-45",
+      "chamber": "House",
+      "district": 45,
+      "name": "Sarah Lightner",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-46",
+      "chamber": "House",
+      "district": 46,
+      "name": "Kathy Schmaltz",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-47",
+      "chamber": "House",
+      "district": 47,
       "name": "Carrie Rheingans",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-53",
+      "id": "house-48",
+      "chamber": "House",
+      "district": 48,
+      "name": "Jennifer Conlin",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-49",
+      "chamber": "House",
+      "district": 49,
+      "name": "Ann Bollin",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-50",
+      "chamber": "House",
+      "district": 50,
+      "name": "Jason Woolford",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-51",
+      "chamber": "House",
+      "district": 51,
+      "name": "Matt Maddock",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-52",
+      "chamber": "House",
+      "district": 52,
+      "name": "Mike Harris",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-53",
+      "chamber": "House",
+      "district": 53,
       "name": "Brenda Carter",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "primary",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-70",
+      "id": "house-54",
+      "chamber": "House",
+      "district": 54,
+      "name": "Donni Steele",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-55",
+      "chamber": "House",
+      "district": 55,
+      "name": "Mark Tisdel",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-56",
+      "chamber": "House",
+      "district": 56,
+      "name": "Sharon MacDonell",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-57",
+      "chamber": "House",
+      "district": 57,
+      "name": "Tom Kuhn",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-58",
+      "chamber": "House",
+      "district": 58,
+      "name": "Ron Robinson",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-59",
+      "chamber": "House",
+      "district": 59,
+      "name": "Douglas Wozniak",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-60",
+      "chamber": "House",
+      "district": 60,
+      "name": "Joseph Aragona",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-61",
+      "chamber": "House",
+      "district": 61,
+      "name": "Denise Mentzer",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-62",
+      "chamber": "House",
+      "district": 62,
+      "name": "Alicia St. Germaine",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-63",
+      "chamber": "House",
+      "district": 63,
+      "name": "Jay DeBoyer",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-64",
+      "chamber": "House",
+      "district": 64,
+      "name": "Joseph Pavlov",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-65",
+      "chamber": "House",
+      "district": 65,
+      "name": "Jaime Greene",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-66",
+      "chamber": "House",
+      "district": 66,
+      "name": "Josh Schriver",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-67",
+      "chamber": "House",
+      "district": 67,
+      "name": "Phil Green",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-68",
+      "chamber": "House",
+      "district": 68,
+      "name": "David Martin",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-69",
+      "chamber": "House",
+      "district": 69,
+      "name": "Jasper Martus",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-70",
+      "chamber": "House",
+      "district": 70,
       "name": "Cynthia Neeley",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-75",
+      "id": "house-71",
+      "chamber": "House",
+      "district": 71,
+      "name": "Brian BeGole",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-72",
+      "chamber": "House",
+      "district": 72,
+      "name": "Mike Mueller",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-73",
+      "chamber": "House",
+      "district": 73,
+      "name": "Julie Brixie",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-74",
+      "chamber": "House",
+      "district": 74,
+      "name": "Kara Hope",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-75",
+      "chamber": "House",
+      "district": 75,
       "name": "Penelope Tsernoglou",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-77",
+      "id": "house-76",
+      "chamber": "House",
+      "district": 76,
+      "name": "Angela Witwer",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-77",
+      "chamber": "House",
+      "district": 77,
       "name": "Emily Dievendorf",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-80",
+      "id": "house-78",
+      "chamber": "House",
+      "district": 78,
+      "name": "Gina Johnsen",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-79",
+      "chamber": "House",
+      "district": 79,
+      "name": "Angela Rigas",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-80",
+      "chamber": "House",
+      "district": 80,
       "name": "Phil Skaggs",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-82",
+      "id": "house-81",
+      "chamber": "House",
+      "district": 81,
+      "name": "Rachel Hood",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-82",
+      "chamber": "House",
+      "district": 82,
       "name": "Kristian Grant",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": null,
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": false
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-94",
+      "id": "house-83",
+      "chamber": "House",
+      "district": 83,
+      "name": "John Fitzgerald",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-84",
+      "chamber": "House",
+      "district": 84,
+      "name": "Carol Glanville",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-85",
+      "chamber": "House",
+      "district": 85,
+      "name": "Bradley Slagh",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-86",
+      "chamber": "House",
+      "district": 86,
+      "name": "Nancy DeBoer",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-87",
+      "chamber": "House",
+      "district": 87,
+      "name": "Will Snyder",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "house-88",
+      "chamber": "House",
+      "district": 88,
+      "name": "Greg VanWoerkom",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-89",
+      "chamber": "House",
+      "district": 89,
+      "name": "Luke Meerman",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-90",
+      "chamber": "House",
+      "district": 90,
+      "name": "Bryan Posthumus",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-91",
+      "chamber": "House",
+      "district": 91,
+      "name": "Pat Outman",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-92",
+      "chamber": "House",
+      "district": 92,
+      "name": "Jerry Neyer",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-93",
+      "chamber": "House",
+      "district": 93,
+      "name": "Tim Kelly",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-94",
+      "chamber": "House",
+      "district": 94,
       "name": "Amos O'Neal",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-103",
+      "id": "house-95",
+      "chamber": "House",
+      "district": 95,
+      "name": "Bill G. Schuette",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-96",
+      "chamber": "House",
+      "district": 96,
+      "name": "Timothy Beson",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-97",
+      "chamber": "House",
+      "district": 97,
+      "name": "Matthew Bierlein",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-98",
+      "chamber": "House",
+      "district": 98,
+      "name": "Gregory Alexander",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-99",
+      "chamber": "House",
+      "district": 99,
+      "name": "Mike Hoadley",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-100",
+      "chamber": "House",
+      "district": 100,
+      "name": "Tom Kunse",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-101",
+      "chamber": "House",
+      "district": 101,
+      "name": "Joseph Fox",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-102",
+      "chamber": "House",
+      "district": 102,
+      "name": "Curtis VanderWall",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-103",
+      "chamber": "House",
+      "district": 103,
       "name": "Betsy Coffia",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": "cosponsor",
-        "hb-6113": "cosponsor"
-      },
-      "supportRuleMatched": true
+      "party": "D",
+      "active": true
     },
     {
-      "legislatorId": "house-104",
+      "id": "house-104",
+      "chamber": "House",
+      "district": 104,
       "name": "John Roth",
-      "bills": {
-        "hb-6111": "cosponsor",
-        "hb-6112": null,
-        "hb-6113": null
-      },
-      "supportRuleMatched": false
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-105",
+      "chamber": "House",
+      "district": 105,
+      "name": "Ken Borton",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-106",
+      "chamber": "House",
+      "district": 106,
+      "name": "Cam Cavitt",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-107",
+      "chamber": "House",
+      "district": 107,
+      "name": "Parker Fairbairn",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-108",
+      "chamber": "House",
+      "district": 108,
+      "name": "Dave Prestin",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-109",
+      "chamber": "House",
+      "district": 109,
+      "name": "Karl Bohnak",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "house-110",
+      "chamber": "House",
+      "district": 110,
+      "name": "Greg Markkanen",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-1",
+      "chamber": "Senate",
+      "district": 1,
+      "name": "Erika Geiss",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-2",
+      "chamber": "Senate",
+      "district": 2,
+      "name": "Sylvia Santana",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-3",
+      "chamber": "Senate",
+      "district": 3,
+      "name": "Stephanie Chang",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-4",
+      "chamber": "Senate",
+      "district": 4,
+      "name": "Darrin Camilleri",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-5",
+      "chamber": "Senate",
+      "district": 5,
+      "name": "Dayna Polehanki",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-6",
+      "chamber": "Senate",
+      "district": 6,
+      "name": "Mary Cavanagh",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-7",
+      "chamber": "Senate",
+      "district": 7,
+      "name": "Jeremy Moss",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-8",
+      "chamber": "Senate",
+      "district": 8,
+      "name": "Mallory McMorrow",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-9",
+      "chamber": "Senate",
+      "district": 9,
+      "name": "Michael Webber",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-10",
+      "chamber": "Senate",
+      "district": 10,
+      "name": "Paul Wojno",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-11",
+      "chamber": "Senate",
+      "district": 11,
+      "name": "Veronica Klinefelt",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-12",
+      "chamber": "Senate",
+      "district": 12,
+      "name": "Kevin Hertel",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-13",
+      "chamber": "Senate",
+      "district": 13,
+      "name": "Rosemary Bayer",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-14",
+      "chamber": "Senate",
+      "district": 14,
+      "name": "Sue Shink",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-15",
+      "chamber": "Senate",
+      "district": 15,
+      "name": "Jeff Irwin",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-16",
+      "chamber": "Senate",
+      "district": 16,
+      "name": "Joseph Bellino Jr.",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-17",
+      "chamber": "Senate",
+      "district": 17,
+      "name": "Jonathan Lindsey",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-18",
+      "chamber": "Senate",
+      "district": 18,
+      "name": "Thomas Albert",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-19",
+      "chamber": "Senate",
+      "district": 19,
+      "name": "Sean McCann",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-20",
+      "chamber": "Senate",
+      "district": 20,
+      "name": "Aric Nesbitt",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-21",
+      "chamber": "Senate",
+      "district": 21,
+      "name": "Sarah Anthony",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-22",
+      "chamber": "Senate",
+      "district": 22,
+      "name": "Lana Theis",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-23",
+      "chamber": "Senate",
+      "district": 23,
+      "name": "Jim Runestad",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-24",
+      "chamber": "Senate",
+      "district": 24,
+      "name": "Ruth Johnson",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-25",
+      "chamber": "Senate",
+      "district": 25,
+      "name": "Dan Lauwers",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-26",
+      "chamber": "Senate",
+      "district": 26,
+      "name": "Kevin Daley",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-27",
+      "chamber": "Senate",
+      "district": 27,
+      "name": "John Cherry",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-28",
+      "chamber": "Senate",
+      "district": 28,
+      "name": "Sam Singh",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-29",
+      "chamber": "Senate",
+      "district": 29,
+      "name": "Winnie Brinks",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-30",
+      "chamber": "Senate",
+      "district": 30,
+      "name": "Mark Huizenga",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-31",
+      "chamber": "Senate",
+      "district": 31,
+      "name": "Roger Victory",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-32",
+      "chamber": "Senate",
+      "district": 32,
+      "name": "Jon Bumstead",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-33",
+      "chamber": "Senate",
+      "district": 33,
+      "name": "Rick Outman",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-34",
+      "chamber": "Senate",
+      "district": 34,
+      "name": "Roger Hauck",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-35",
+      "chamber": "Senate",
+      "district": 35,
+      "name": "Chedrick Greene",
+      "party": "D",
+      "active": true
+    },
+    {
+      "id": "senate-36",
+      "chamber": "Senate",
+      "district": 36,
+      "name": "Michele Hoitenga",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-37",
+      "chamber": "Senate",
+      "district": 37,
+      "name": "John Damoose",
+      "party": "R",
+      "active": true
+    },
+    {
+      "id": "senate-38",
+      "chamber": "Senate",
+      "district": 38,
+      "name": "Ed McBroom",
+      "party": "R",
+      "active": true
     }
   ]
 }
