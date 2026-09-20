@@ -1,1 +1,129 @@
+{
+  "lastUpdated": "2026-09-19",
+  "organization": "Freedmen Agenda League of Michigan",
+  "session": "2025-2026",
+  "visibilityNote": "This file is intended for dashboard-safe engagement data only. Do not store private strategy notes, personal contact information, or sensitive staff details here if the GitHub repository is public.",
+  "statusDefinitions": {
+    "support": "FAM has recorded the legislator as supportive.",
+    "reviewing": "The legislator is reviewing the proposal or has not given full-package support.",
+    "opposed": "FAM has recorded the legislator as not supportive.",
+    "unknown": "No FAM position is currently recorded."
+  },
+  "statusResolution": {
+    "rule1": "If a legislator qualifies for automatic support in sponsorships.json by sponsoring all three FAM priority bills, display Support.",
+    "rule2": "Otherwise, use the explicit status in engagement.json when one exists.",
+    "rule3": "Otherwise, display Unknown."
+  },
+  "engagement": [
+    {
+      "legislatorId": "house-20",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "house-22",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "house-24",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "house-73",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "house-83",
+      "status": "reviewing",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "house-84",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "house-87",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "senate-1",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "senate-3",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null,
+      "publicNote": "FAM records a sponsorship commitment for one bill in the package."
+    },
+    {
+      "legislatorId": "senate-4",
+      "status": "reviewing",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "senate-5",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "senate-6",
+      "status": "support",
+      "contacted": true,
+      "meetingHeld": true,
+      "lastMeeting": "2026-08-27"
+    },
+    {
+      "legislatorId": "senate-15",
+      "status": "reviewing",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    },
+    {
+      "legislatorId": "senate-27",
+      "status": "reviewing",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null,
+      "issueSupport": [
+        "data-disaggregation"
+      ]
+    },
+    {
+      "legislatorId": "senate-28",
+      "status": "reviewing",
+      "contacted": true,
+      "meetingHeld": null,
+      "lastMeeting": null
+    }
+  ]
+}
 
